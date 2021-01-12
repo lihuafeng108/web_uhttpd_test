@@ -1,0 +1,1 @@
+./uhttpd -f -p 80 -a -u ./ubus -h /home/root/zz_uhttpd_test/www -i .php=/genvict/bin/php-cgi -i .lua=/genvict/bin/lua -i .lp=/genvict/bin/lua-cgi  -s 443 -K /etc/serv.key -C /etc/serv.crt -c /etc/httpd.conf -t 300
